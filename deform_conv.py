@@ -1,18 +1,13 @@
 # Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 import math
 from functools import lru_cache
-#i didnt know you did
 import torch
 from torch import nn
 from torch.autograd import Function
 from torch.autograd.function import once_differentiable
 from torch.nn.modules.utils import _pair
-#deteaet
 from detectron2 import _C
-#123
 from .wrappers import _NewEmptyTensorOp
-
-#dafd
 class _DeformConv(Function):
     @staticmethod
     def forward(
