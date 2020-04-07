@@ -9,7 +9,7 @@ from torch.autograd.function import once_differentiable
 from torch.nn.modules.utils import _pair
 
 from detectron2 import _C
-
+#123
 from .wrappers import _NewEmptyTensorOp
 
 
@@ -37,7 +37,7 @@ class _DeformConv(Function):
         ctx.groups = groups
         ctx.deformable_groups = deformable_groups
         ctx.im2col_step = im2col_step
-
+	#ctx.dddd	
         ctx.save_for_backward(input, offset, weight)
 
         output = input.new_empty(
