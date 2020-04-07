@@ -1,7 +1,7 @@
 # Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 import math
 from functools import lru_cache
-// i didnt know you did
+#i didnt know you did
 import torch
 from torch import nn
 from torch.autograd import Function
